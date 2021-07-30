@@ -1,5 +1,9 @@
 package simplefactory;
 
+/**
+ * SimpleFactory usually has a static method for creating objects
+ * The implementation below is how a factory method is implemented.
+ */
 public class SimpleFactoryTest {
     public static void main(String args[]) {
         CarFactory carFactory = new CarFactory();
