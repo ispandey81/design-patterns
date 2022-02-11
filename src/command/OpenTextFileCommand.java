@@ -1,11 +1,11 @@
 package command;
 
 // Concrete command objects implementing the command interface
-public class OpenTextFileOperation implements TextFileCommand {
+public class OpenTextFileCommand implements TextFileCommand {
 
     private final TextFile textFile;
 
-    public OpenTextFileOperation(TextFile textFile) {
+    public OpenTextFileCommand(TextFile textFile) {
         this.textFile = textFile;
     }
 
